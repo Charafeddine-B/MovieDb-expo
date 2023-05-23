@@ -7,7 +7,7 @@ import {
     getPoster,
     getLanguage,
     getVideo,
-} from './api/MovieService'; // Import API functions
+} from '../../api/MovieService'; // Import API functions
 
 export default class Filminfo extends React.Component {
     constructor(props) {
@@ -55,7 +55,7 @@ export default class Filminfo extends React.Component {
                                 <Text>{movie.overview}</Text>
                             </View>
                             <View style={styles.date_style}>
-                                <Text>{movie.release_date}</Text>
+                                <Text> Release Date: {movie.release_date}</Text>
                             </View>
                         </View>
                     </View>
@@ -66,7 +66,7 @@ export default class Filminfo extends React.Component {
 }
 
 const StyledView = styled.ScrollView`
-  background-color: papayawhip;
+  background-color: pink;
 `;
 
 const styles = StyleSheet.create({

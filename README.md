@@ -1,6 +1,6 @@
 # MovieDb-expo
 
-# Film Info App
+# Film-Info-/App
 
 Film Info App is a mobile application that displays information about currently playing movies. It fetches movie data from an API and presents it in a user-friendly interface.
 

@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Filminfo from './Filminfo';
-import MovieDetails from './MovieDetails';
+import Filminfo from './src/components/Filminfo';
+
 import { NavigationContainer } from '@react-navigation/native';
 import MyStack from './navigation/MyStack';
 
