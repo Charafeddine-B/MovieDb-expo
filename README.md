@@ -31,17 +31,17 @@ Follow these instructions to set up and run the project locally on your machine.
 
 1. Clone the repository:
 
-````bash
+````
 git clone https://github.com/your-username/film-info-app.git
 
 
-```bash
+
 cd film-info-app
 
-```bash
+
 npm install
 
-```bash
+
 npm start
 
 
